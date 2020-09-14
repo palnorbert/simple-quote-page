@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -38,11 +42,16 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 95.25%;
+  width: 100%;
   display: block;
-  padding: 2rem;
-  background-color: hsl(0, 100%, 0%, .2);
   }
+
+#footwrapper {
+  padding: 1.5rem;
+  background-color: hsl(0, 100%, 0%, .2);
+  width: 100%;
+  text-align: center;
+}
 
 a {
   text-decoration: none;
